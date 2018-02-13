@@ -250,7 +250,7 @@ body
 
 				span
 					 color: $span
-					 font-size: 12px
+					 font-size: 10px
 					 font-family: $B-Montserrat
 					 text-transform: uppercase;
 					 letter-spacing: 3px;
@@ -379,7 +379,7 @@ body
 
 				span
 					 color: $span
-					 font-size: 12px
+					 font-size: 10px
 					 font-family: $B-Montserrat
 					 text-transform: uppercase;
 					 letter-spacing: 3px
@@ -500,7 +500,7 @@ body
 
 				span
 					 color: $Axis;
-					 font-size: 12px;
+					 font-size: 10px;
 					 font-family: $default-Axis;
 					 text-transform: uppercase;
 					 letter-spacing: 3px;
@@ -519,126 +519,222 @@ body
 				
 				
 .reserv
-		padding: 90px 0;
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
-	
-		-webkit-flex-wrap: wrap;
-		-moz-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		-o-flex-wrap: wrap;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		
+		&__services
+		   text-align: center;
+		   padding-bottom: 45px;
+
+		   h2
+		     font-size: 32px;
+		     font-family: $default-Axis;
+		     color: $Axis;
+		     letter-spacing: 13px;
+		     line-height: 45px;
+			
+		span
+			 color: $span
+			 font-size: 10px
+			 font-family: $B-Montserrat
+			 text-transform: uppercase;
+			 letter-spacing: 3px;
 
 
-		&__img
-			 
+		&__our
+			
 			display: -webkit-flex;
 			display: -moz-flex;
 			display: -ms-flex;
 			display: -o-flex;
 			display: flex;
-			-webkit-flex: 0 21%;
-			-moz-flex: 0 21%;
-			-ms-flex: 0 21%;
-			-o-flex: 0 21%;
-			flex: 0 21%;
-			-webkit-flex-direction: column;
-			-moz-flex-direction: column;
-			-ms-flex-direction: column;
-			-o-flex-direction: column;
-			flex-direction: column;
+			-webkit-flex-direction: row;
+			-moz-flex-direction: row;
+			-ms-flex-direction: row;
+			-o-flex-direction: row;
+			flex-direction: row;
 			justify-content: center;
-
-		
-
-		img
-			position: relative;
+			-ms-align-items: strech;
+			align-items: strech;
+			background: #f7f7f7;
 
 
 
-		.seven
-			     bottom: 85px;
-		    	 left: 155px;
-		    	
 
-		.three
-				z-index: 5;
-				left: 100px;
-		
+	
+			&__item
+				   padding: 50px;
+			.border
+					border-right: 1px solid #d9d9d9;
+					border-left: 1px solid #d9d9d9;
 
-
-
+  		
 					
-			
+
+
+
+
+		   
 					
+
+
+
+
+
+
+
+
+
+
+		&__fx
 			 
 
-
-
-		&__desc
+			&__img
+				  
 				display: -webkit-flex;
 				display: -moz-flex;
 				display: -ms-flex;
 				display: -o-flex;
 				display: flex;
+				-webkit-flex: 0 21%;
+				-moz-flex: 0 21%;
+				-ms-flex: 0 21%;
+				-o-flex: 0 21%;
+				flex: 0 21%;
 				-webkit-flex-direction: column;
 				-moz-flex-direction: column;
 				-ms-flex-direction: column;
 				-o-flex-direction: column;
 				flex-direction: column;
-				-webkit-flex: 0 30%;
-				-moz-flex: 0 30%;
-				-ms-flex: 0 30%;
-				-o-flex: 0 30%;
-				flex: 0 30%;
 				justify-content: center;
-				padding-top: 45px;
-
-				h2
-					font-size: 32px
-					color: $Axis
-					font-family: $default-Axis
-					line-height: 45px;
-					letter-spacing: 13px;
-					margin-bottom: 10px;
 
 
-				span
-					 color: $span
-					 font-size: 12px
-					 font-family: $B-Montserrat
-					 text-transform: uppercase;
-					 letter-spacing: 3px;
-					 
+
+				img
+					position: relative;
 
 
-				
 
-				p
-				  font-size: 12px;
-				  color: $Montserrat-p;
-				  font-family: $B-Montserrat;
-				  line-height: 30px;
-				  letter-spacing: 2px;
+				.seven
+					     bottom: 85px;
+				    	 left: 155px;
+				    	
+
+				.three
+						z-index: 5;
+						left: 100px;
+			&__desc
+					display: -webkit-flex;
+					display: -moz-flex;
+					display: -ms-flex;
+					display: -o-flex;
+					display: flex;
+					-webkit-flex-direction: column;
+					-moz-flex-direction: column;
+					-ms-flex-direction: column;
+					-o-flex-direction: column;
+					flex-direction: column;
+					-webkit-flex: 0 30%;
+					-moz-flex: 0 30%;
+					-ms-flex: 0 30%;
+					-o-flex: 0 30%;
+					flex: 0 30%;
+					justify-content: flex-start;
+					padding-top: 45px;
+
+					h2
+						font-size: 32px
+						color: $Axis
+						font-family: $default-Axis
+						line-height: 45px;
+						letter-spacing: 13px;
+						margin-bottom: 10px;
 
 
-				
-				.frch
-					 margin-bottom: 35px;
-					 margin-top: 5px;
+					span
+						 color: $span
+						 font-size: 10px
+						 font-family: $B-Montserrat
+						 text-transform: uppercase;
+						 letter-spacing: 3px;
+						 
 
-				.modulle
-					    span:after
-					    	       content: '...';
-					    	       font-size: 30px;
-					    	       font-family: $B-Montserrat;
-					    	       color: $Axis;
-					    	       letter-spacing: 6px;
+
+					
+
+					p
+					  font-size: 12px;
+					  color: $Montserrat-p;
+					  font-family: $B-Montserrat;
+					  line-height: 30px;
+					  letter-spacing: 2px;
+
+
+					
+					.frch
+						 margin-bottom: 35px;
+						 margin-top: 5px;
+
+					.modulle
+						    span:after
+						    	       content: '...';
+						    	       font-size: 30px;
+						    	       font-family: $B-Montserrat;
+						    	       color: $Axis;
+						    	       letter-spacing: 6px;
+
+
+			
+
+								
+			
+		 padding: 90px 0 0 0;
+		 display: -webkit-flex;
+		 display: -moz-flex;
+		 display: -ms-flex;
+		 display: -o-flex;
+		 display: flex;
+		 -webkit-flex-wrap: wrap;
+		 -moz-flex-wrap: wrap;
+		 -ms-flex-wrap: wrap;
+		 -o-flex-wrap: wrap;
+		 flex-wrap: wrap;
+		 justify-content: space-around;  
+
+
+
+.order
+	background: url(../img/order-bg.jpg);
+	height: 150px;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+
+
+	&__button
+	  		 background-color: #1e2633;
+	  		 color: #fff;
+	  		 padding: 15px 32px;
+	  		 text-decoration: none;
+	  		 display: inline-block;
+	  		 text-align: center;
+	  		 font-size: 11px;
+	  		 font-family: $B-Montserrat;
+	  		 text-transform: uppercase;
+	  		 
+
+
+
+
+
+			
+
+		    
 
 				
 				    
