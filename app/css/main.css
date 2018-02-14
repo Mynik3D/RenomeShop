@@ -641,10 +641,103 @@ body {
   .order__button {
     background-color: #1e2633;
     color: #fff;
-    padding: 15px 32px;
+    padding: 11px 40px;
     text-decoration: none;
     display: inline-block;
     text-align: center;
     font-size: 11px;
     font-family: "Montserrat-bd";
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
+.blog {
+  padding: 45px 0; }
+  .blog__zag {
+    text-align: center;
+    margin-bottom: 200px; }
+  .blog h2 {
+    font-size: 32px;
+    font-family: "Axis-ex";
+    color: #1e2633;
+    line-height: 45px;
+    letter-spacing: 3px; }
+  .blog span {
+    font-size: 10px;
+    font-family: "Montserrat-bd";
+    text-transform: uppercase;
+    color: #985e5b;
+    letter-spacing: 1px; }
+  .blog__recipes {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -ms-align-items: center;
+    -webkit-box-align: strech;
+    -webkit-align-items: strech;
+        -ms-flex-align: strech;
+            align-items: strech;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 300px;
+    background: #f7f7f7; }
+    .blog__recipes__content1 {
+      background: url(../img/i-1.jpg) no-repeat; }
+    .blog__recipes__content2 {
+      background: url(../img/i-2.jpg) no-repeat; }
+    .blog__recipes__content3 {
+      background: url(../img/i-3.jpg) no-repeat; }
+    .blog__recipes__content1, .blog__recipes__content2, .blog__recipes__content3 {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      -ms-flex-direction: row;
+      -o-flex-direction: row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+              flex-direction: row;
+      -webkit-flex: 0 24%;
+      -moz-flex: 0 24%;
+      -ms-flex: 0 24%;
+      -o-flex: 0 24%;
+      -webkit-box-flex: 0;
+              flex: 0 24%;
+      margin-top: -140px;
+      position: relative; }
+      .blog__recipes__content1 .hover-wrapp, .blog__recipes__content2 .hover-wrapp, .blog__recipes__content3 .hover-wrapp {
+        text-align: center;
+        background: #fff;
+        position: absolute;
+        width: 50%;
+        height: 50%; }
+    .blog__recipes span {
+      color: #dcdee0;
+      font-size: 14px;
+      font-family: "Montserrat-bd";
+      letter-spacing: 2px; }
+    .blog__recipes h3 {
+      color: #000;
+      font-size: 12px;
+      font-family: "Axis-ex";
+      text-transform: uppercase; }
