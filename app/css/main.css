@@ -729,8 +729,33 @@ body {
         text-align: center;
         background: #fff;
         position: absolute;
-        width: 50%;
-        height: 50%; }
+        width: 87%;
+        height: 70%;
+        right: 28px;
+        top: 10px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+        -ms-align-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 50px; }
     .blog__recipes span {
       color: #dcdee0;
       font-size: 14px;
@@ -741,3 +766,9 @@ body {
       font-size: 12px;
       font-family: "Axis-ex";
       text-transform: uppercase; }
+    .blog__recipes .modulle span:after {
+      content: "...";
+      font-size: 30px;
+      font-family: "Montserrat-bd";
+      color: #1e2633;
+      letter-spacing: 6px; }
