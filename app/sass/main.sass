@@ -839,6 +839,16 @@ body
 								  -ms-align-items: center;
 								  align-items: center;
 								  padding: 50px;
+								  opacity: 0;
+								  -webkit-transition: .3s;
+								  -o-transition: .3s;
+								  transition: .3s;
+								  -moz-transition: .3s;
+
+								  &:hover
+								  	     opacity: 9;
+
+
 
 
 
@@ -865,7 +875,17 @@ body
 					    	       
 
 
-
+	&__contact
+		    display: -webkit-flex;
+		   	display: -moz-flex;
+		   	display: -ms-flex;
+		   	display: -o-flex;
+		   	display: flex;
+		   	-webkit-flex-direction: row;
+		    -moz-flex-direction: row;
+		    -ms-flex-direction: row;
+		    -o-flex-direction: row;
+		    flex-direction: row;	
 
 			
 
