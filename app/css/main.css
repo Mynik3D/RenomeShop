@@ -33,6 +33,10 @@
 * h2, * p {
   margin: 0; }
 
+h2 {
+  font-size: 32px;
+  line-height: 45px; }
+
 body {
   overflow-x: hidden;
   width: 100%;
@@ -468,11 +472,9 @@ body {
   text-align: center;
   padding-bottom: 45px; }
   .reserv__services h2 {
-    font-size: 32px;
     font-family: "Axis-ex";
     color: #1e2633;
-    letter-spacing: 13px;
-    line-height: 45px; }
+    letter-spacing: 13px; }
 
 .reserv span {
   color: #985e5b;
@@ -793,4 +795,90 @@ body {
     -o-flex-direction: row;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-            flex-direction: row; }
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    padding: 45px 0; }
+    .blog__contact__desc {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      -o-flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+      -webkit-flex: 0 24%;
+      -moz-flex: 0 24%;
+      -ms-flex: 0 24%;
+      -o-flex: 0 24%;
+      -webkit-box-flex: 0;
+              flex: 0 24%;
+      text-align: right;
+      padding-top: 70px; }
+      .blog__contact__desc h2 {
+        font-size: 32px;
+        color: #1e2633;
+        font-family: "Axis-ex";
+        line-height: 45px;
+        letter-spacing: 13px;
+        margin-bottom: 10px; }
+      .blog__contact__desc span {
+        color: #985e5b;
+        font-size: 10px;
+        font-family: "Montserrat-bd";
+        text-transform: uppercase;
+        letter-spacing: 3px; }
+      .blog__contact__desc p {
+        font-size: 12px;
+        color: #404040;
+        font-family: "Montserrat-rg";
+        line-height: 30px;
+        letter-spacing: 2px; }
+    .blog__contact__img {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      -o-flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+      -webkit-flex: 0 26%;
+      -moz-flex: 0 26%;
+      -ms-flex: 0 26%;
+      -o-flex: 0 26%;
+      -webkit-box-flex: 0;
+              flex: 0 26%; }
+    .blog__contact img {
+      position: relative; }
+    .blog__contact .bl-2 {
+      bottom: 75px;
+      right: 100px; }
+    .blog__contact .bl-1 {
+      left: 0;
+      z-index: 5;
+      top: 30px; }
+    .blog__contact .modulle span:after {
+      content: '...';
+      font-size: 30px;
+      font-family: "Montserrat-bd";
+      color: #1e2633;
+      letter-spacing: 6px; }

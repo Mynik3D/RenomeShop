@@ -7,6 +7,9 @@
 *
  h2,p
  	margin: 0 
+h2
+  font-size: 32px;
+  line-height: 45px;
 
 body
 	 overflow-x: hidden;
@@ -524,11 +527,10 @@ body
 		   padding-bottom: 45px;
 
 		   h2
-		     font-size: 32px;
 		     font-family: $default-Axis;
 		     color: $Axis;
 		     letter-spacing: 13px;
-		     line-height: 45px;
+		     
 			
 		span
 			 color: $span
@@ -885,8 +887,112 @@ body
 		    -moz-flex-direction: row;
 		    -ms-flex-direction: row;
 		    -o-flex-direction: row;
-		    flex-direction: row;	
+		    flex-direction: row;
+		    -webkit-flex-wrap: wrap;
+		    -moz-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		    -o-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		    justify-content: space-around;
+		    padding: 45px 0;
 
+			
+
+						&__desc
+							display: -webkit-flex;
+							display: -moz-flex;
+							display: -ms-flex;
+							display: -o-flex;
+							display: flex;
+							-webkit-flex-direction: column;
+							-moz-flex-direction: column;
+							-ms-flex-direction: column;
+							-o-flex-direction: column;
+							flex-direction: column;
+							-webkit-flex: 0 24%;
+							-moz-flex: 0 24%;
+							-ms-flex: 0 24%;
+							-o-flex: 0 24%;
+							flex: 0 24%;
+							text-align: right;
+							padding-top: 70px;
+
+
+							h2
+								font-size: 32px
+								color: $Axis
+								font-family: $default-Axis
+								line-height: 45px;
+								letter-spacing: 13px;
+								margin-bottom: 10px;
+
+							
+
+							span
+							    color: $span;
+							    font-size: 10px;
+							    font-family: $B-Montserrat;
+							    text-transform: uppercase;
+							    letter-spacing: 3px;
+
+							p
+							  font-size: 12px;
+							  color: $Montserrat-p;
+							  font-family: $r-Montserrat;
+							  line-height: 30px;
+							  letter-spacing: 2px;
+								 
+
+
+
+						&__img
+							   display: -webkit-flex;
+							   display: -moz-flex;
+							   display: -ms-flex;
+							   display: -o-flex;
+							   display: flex;
+							   -webkit-flex-direction: column;
+							   -moz-flex-direction: column;
+							   -ms-flex-direction: column;
+							   -o-flex-direction: column;
+							   flex-direction: column;
+							   -webkit-flex: 0 26%;
+							   -moz-flex: 0 26%;
+							   -ms-flex: 0 26%;
+							   -o-flex: 0 26%;
+							   flex: 0 26%;
+							   
+
+
+						img
+							position: relative;
+
+						.bl-2
+							  bottom: 75px;
+							  right: 100px;
+
+						.bl-1
+						      left: 0;
+						      z-index: 5;
+						      top: 30px;
+
+
+						.modulle
+								 span:after
+							    	       content: '...';
+							    	       font-size: 30px;
+							    	       font-family: $B-Montserrat;
+							    	       color: $Axis;
+							    	       letter-spacing: 6px;
+
+
+
+						
+
+
+
+
+							   
 			
 
 
