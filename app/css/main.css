@@ -227,8 +227,6 @@ body {
         margin: 0;
         color: #fff;
         font-family: "Axis-ex";
-        line-height: 45px;
-        font-size: 32px;
         letter-spacing: 6px; }
 
 .about {
@@ -263,10 +261,8 @@ body {
     width: 25%;
     padding-top: 45px; }
     .about__desc h2 {
-      font-size: 32px;
       color: #1e2633;
       font-family: "Axis-ex";
-      line-height: 45px;
       letter-spacing: 13px;
       margin-bottom: 10px; }
     .about__desc span {
@@ -363,10 +359,8 @@ body {
     -webkit-box-flex: 0;
             flex: 0 30%; }
     .menu-lunch__desc h2 {
-      font-size: 32px;
       color: #1e2633;
       font-family: "Axis-ex";
-      line-height: 45px;
       letter-spacing: 13px; }
     .menu-lunch__desc span {
       color: #985e5b;
@@ -590,10 +584,8 @@ body {
             justify-content: flex-start;
     padding-top: 45px; }
     .reserv__fx__desc h2 {
-      font-size: 32px;
       color: #1e2633;
       font-family: "Axis-ex";
-      line-height: 45px;
       letter-spacing: 13px;
       margin-bottom: 10px; }
     .reserv__fx__desc span {
@@ -658,10 +650,8 @@ body {
     text-align: center;
     margin-bottom: 200px; }
   .blog h2 {
-    font-size: 32px;
     font-family: "Axis-ex";
     color: #1e2633;
-    line-height: 45px;
     letter-spacing: 3px; }
   .blog span {
     font-size: 10px;
@@ -828,10 +818,8 @@ body {
       text-align: right;
       padding-top: 70px; }
       .blog__contact__desc h2 {
-        font-size: 32px;
         color: #1e2633;
         font-family: "Axis-ex";
-        line-height: 45px;
         letter-spacing: 13px;
         margin-bottom: 10px; }
       .blog__contact__desc span {
@@ -882,3 +870,69 @@ body {
       font-family: "Montserrat-bd";
       color: #1e2633;
       letter-spacing: 6px; }
+
+.footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px;
+  background: #edeff2; }
+  .footer__socb {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .footer__socb span {
+      text-transform: uppercase;
+      font-family: "Montserrat-bd";
+      color: #1e2633; }
+    .footer__socb__link {
+      margin-left: 10px; }
+      .footer__socb__link a {
+        margin-left: 5px; }
+      .footer__socb__link #Capa_1 {
+        fill: #1e2633; }
+  .footer__copr {
+    color: #1e2633;
+    font-family: "Axis-ex";
+    font-size: 12px;
+    text-transform: uppercase; }
+  .footer__logo h2 {
+    font-family: "Pacifico-ex";
+    font-size: 25px;
+    font-weight: normal;
+    color: #1e2633; }
